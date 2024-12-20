@@ -1,10 +1,9 @@
-import HomePage from "./pages/homePage";
+import { AppRoutes } from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <h5>Hello World!</h5>
-      <HomePage />
+      <AppRoutes />
     </div>
   );
 }
