@@ -3,6 +3,7 @@ import {HomePage} from './pages/homePage';
 import {UseStatePage} from './pages/useStatePage';
 import {UseEffectPage} from './pages/useEffectPage';
 import {UseCallbackPage} from './pages/useCallBack';
+import {UseMemoPage} from './pages/useMemoPage';
 
 export const AppRoutes = () => {
     return (
@@ -12,6 +13,7 @@ export const AppRoutes = () => {
                 <Route path='/useState' element={<UseStatePage />}/>
                 <Route path='/useEffect' element={<UseEffectPage />}/>
                 <Route path='/useCallback' element={<UseCallbackPage />}/>
+                <Route path='/useMemo' element={<UseMemoPage />}/>
             </Routes>
         </BrowserRouter>
     )
