@@ -5,7 +5,8 @@ export const HomePage = () => {
   return (
     <>
       <h1>Bem vindo aos hooks!</h1>
-      <Link to="/useState">Ir para o Site UseStatePage</Link>
+      <Link to="/useState">Ir para o Site UseStatePage</Link><br/><br/>
+      <Link to="/useEffect">Ir para o Site UseStatePage</Link>
     </>
   );
 };
