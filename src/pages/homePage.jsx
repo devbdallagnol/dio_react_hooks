@@ -9,6 +9,7 @@ export const HomePage = () => {
       <Link to="/useEffect">Ir para o Site UseEffectPage</Link><br/><br/>
       <Link to="/useCallback">Ir para o Site UseCallbackPage</Link><br/><br/>
       <Link to="/useMemo">Ir para o Site UseMemoPage</Link><br/><br/>
+      <Link to="/useRef">Ir para o Site UseRefPage</Link><br/><br/>
     </>
   );
 };
